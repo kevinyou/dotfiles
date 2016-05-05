@@ -21,4 +21,4 @@ hi ColorColumn ctermbg=235 guibg=#2c2d2
 set t_ut=
 
 set t_Co=256
-:let g:notes_directories = ['~/dropbox/Documents/vimnotes', '~/Documents/Notes']
+:let g:notes_directories = ['~/Documents/notes']
