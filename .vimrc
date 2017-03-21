@@ -27,3 +27,7 @@ set t_Co=256
 :let g:notes_directories = ['~/Documents/notes']
 :set laststatus=2
 hi StatusLine ctermbg=236 ctermfg=white
+hi WildMenu ctermbg=103 ctermfg=236
+
+set path+=**
+set wildmenu
