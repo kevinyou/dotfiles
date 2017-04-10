@@ -19,6 +19,7 @@ hi CursorColumn ctermbg=235 guibg=#262626
 hi ColorColumn ctermbg=235 guibg=#262626
 hi CursorLine ctermbg=235 guibg=#262626
 hi StatusLine ctermbg=236 ctermfg=white guibg=#303030 guifg=white
+hi StatusLineNC ctermbg=103 ctermfg=236 guibg=#8787af guifg=#303030
 hi WildMenu ctermbg=103 ctermfg=236 guibg=#8787af guifg=#303030
 
 if has('gui_running')
@@ -35,3 +36,11 @@ set t_Co=256
 
 set path+=**
 set wildmenu
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
