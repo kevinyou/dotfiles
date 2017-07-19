@@ -16,7 +16,7 @@ set tabstop=4
 set mouse=a
 set cursorline
 set colorcolumn=80
-"set cursorcolumn
+:set cursorcolumn
 
 hi CursorColumn ctermbg=235 guibg=#262626
 hi ColorColumn ctermbg=235 guibg=#262626
