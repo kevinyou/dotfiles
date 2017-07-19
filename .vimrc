@@ -6,8 +6,11 @@ set ignorecase
 set smartcase
 "syntax on
 filetype indent plugin on
-set expandtab
 set modeline
+"set expandtab
+"set shiftwidth=4
+"set tabstop=4
+set noexpandtab
 set shiftwidth=4
 set tabstop=4
 set mouse=a
@@ -44,3 +47,7 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+"set clipboard=unnamed
+set backspace=indent,eol,start
+set ruler
