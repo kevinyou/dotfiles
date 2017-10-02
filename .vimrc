@@ -31,7 +31,7 @@ set t_Co=256
 
 "enable one of these as needed
 ":let g:notes_directories = ['~/dropbox/Documents/vimnotes', '~/Documents/notes']
-:let g:notes_directories = ['~/Documents/notes']
+":let g:notes_directories = ['~/Documents/notes']
 :set laststatus=2
 
 set path+=**
