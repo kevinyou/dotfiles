@@ -18,6 +18,8 @@ filetype indent plugin on
 
 set mouse=a
 
+inoremap <S-Tab> <C-d>
+
 """"""""""""""""""""""
 " Here be Aesthetics "
 """"""""""""""""""""""
