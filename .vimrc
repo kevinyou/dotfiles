@@ -15,6 +15,10 @@ set cursorline
 set colorcolumn=80
 "set cursorcolumn
 
+" use these with image background
+hi Normal guibg=None ctermbg=None
+hi NonText guibg=None ctermbg=None
+
 hi CursorColumn ctermbg=235 guibg=#262626
 hi ColorColumn ctermbg=235 guibg=#262626
 hi CursorLine ctermbg=235 guibg=#262626
