@@ -1,5 +1,5 @@
 DOTFILES := $(shell pwd)
-all: tmux vim bashrc
+all: tmux vim bashrc cmus
 vim:
 	ln -s $(DOTFILES)/.vim ${HOME}/.vim
 	ln -s $(DOTFILES)/.vimrc ${HOME}/.vimrc
@@ -9,3 +9,6 @@ tmux:
 
 bashrc:
 	cat $(DOTFILES)/.bashrc.stub >> ${HOME}/.bashrc
+
+cmus:
+	ln -s $(DOTFILES)/myjellybeans.theme ${HOME}/.cmus/
