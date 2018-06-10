@@ -12,3 +12,6 @@ bashrc:
 
 cmus:
 	ln -s $(DOTFILES)/myjellybeans.theme ${HOME}/.cmus/
+
+hangups:
+	ln -s $(DOTFILES)/hangups.conf ${HOME}/.config/hangups/
