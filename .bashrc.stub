@@ -20,36 +20,6 @@ export TERM=xterm-256color
 
 alias tmuxtoggle="~/dotfiles/toggle-tmuxline.sh"
 
-# common ssh locations
-alias tosca="ssh kevinyou@tosca.cs.utexas.edu"
-alias nixon="ssh kevinyou@nixon-in-china.cs.utexas.edu"
-
-# Pintos stuff
-#export PATH=/lusr/opt/pintos/:/lusr/opt/bochs-2.2.6-pintos/bin/:/lusr/opt/qemu-1.1.1/:$PATH
-
-# Mooney stuff
-#export CLASSPATH='.:/u/mooney/ir-code'
-#export CLASSPATH='.:/u/kevinyou'
-
-# UTCS C++ stuff
-#export PATH=/lusr/opt/gcc-5.2.0/bin/:$PATH
-#export LD_LIBRARY_PATH=/lusr/opt/gcc-5.2.0/lib64/:$LD_LIBRARY_PATH=
-#export CPATH=/lusr/opt/gcc-5.2.0/include/:$CPATH
-#alias g++="/lusr/opt/gcc-5.2.0/bin/g++"
-
-# Declarative stuff
-alias clingo="/projects/tag/clingo-5.1.0-linux-x86_64/clingo"
-
-# PL stuff
-alias happy="~/.cabal/bin/happy"
-
-# Multicore stuff
-alias picopanda="picocom -b 115200 -f n /dev/ttyUSB0"
-alias rsyncpush="rsync -azP --delete -e \"ssh -p 42069\""
-
-# Ideapad stuff
-#alias startxi3="startx ~/.xinitrc i3"
-
 ##########################
 # here ends .bashrc.stub #
 ##########################
