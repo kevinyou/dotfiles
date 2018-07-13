@@ -15,3 +15,6 @@ cmus:
 
 hangups:
 	ln -s $(DOTFILES)/hangups.conf ${HOME}/.config/hangups/
+
+context-color:
+	ln -s $(DOTFILES)/.context-color/context-color $(DOTFILES)/context-color
