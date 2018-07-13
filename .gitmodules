@@ -1,0 +1,3 @@
+[submodule ".context-color"]
+	path = .context-color
+	url = https://github.com/kevinyou/context-color
