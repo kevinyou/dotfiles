@@ -9,3 +9,5 @@ tmux:
 
 bashrc:
 	cat $(DOTFILES)/.bashrc.stub >> ${HOME}/.bashrc
+	ln -s ${HOME}/.bashrc ${HOME}/.bash_profile
+
