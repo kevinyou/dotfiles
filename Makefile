@@ -1,5 +1,5 @@
 DOTFILES := $(shell pwd)
-all: tmux vim bashrc
+all: tmux vim zshrc
 vim:
 	ln -s $(DOTFILES)/.vim ${HOME}/.vim
 	ln -s $(DOTFILES)/.vimrc ${HOME}/.vimrc
@@ -7,7 +7,7 @@ vim:
 tmux:
 	ln -s $(DOTFILES)/.tmux.conf ${HOME}/.tmux.conf
 
-bashrc:
-	cat $(DOTFILES)/.bashrc.stub >> ${HOME}/.bashrc
-	ln -s ${HOME}/.bashrc ${HOME}/.bash_profile
+zshrc:
+	cat ${DOTFILES}/.zshrc.stub >> ${HOME}/.zshrc
+	ln -s ${HOME}/.zshrc ${HOME}/.zprofile
 
