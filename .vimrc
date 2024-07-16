@@ -35,8 +35,8 @@ set background=dark
 colorscheme jellybeans
 
 " Use these for a transparent background
-hi Normal guibg=None ctermbg=None
-hi NonText guibg=None ctermbg=None
+" hi Normal guibg=None ctermbg=None
+" hi NonText guibg=None ctermbg=None
 
 " Colors tuned for Jellybeans
 hi CursorColumn ctermbg=235 guibg=#262626
