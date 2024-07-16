@@ -11,7 +11,7 @@ setopt prompt_subst
 
 # Config for prompt. PS1 synonym.
 # prompt='%0/ %F{green}$(git_branch_name)%f > '
-export PROMPT='%F{214}%n@%m %F{81}%d%F{34}$(parse_git_branch)%F{81} $%f '
+export PROMPT='%F{214}%n@%m %F{81}%~%F{34}$(parse_git_branch)%F{81} $%f '
 
 alias ls='ls --color=auto'
 export TERM=xterm-256color
