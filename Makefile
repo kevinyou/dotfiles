@@ -11,3 +11,5 @@ zshrc:
 	cat ${DOTFILES}/.zshrc.stub >> ${HOME}/.zshrc
 	ln -s ${HOME}/.zshrc ${HOME}/.zprofile
 
+aerospace:
+	ln -s $(DOTFILES)/.aerospace.toml ${HOME}/.aerospace.toml
