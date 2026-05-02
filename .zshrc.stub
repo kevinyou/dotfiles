@@ -1,0 +1,22 @@
+#######################
+# here be .zshrc.stub #
+#######################
+
+function parse_git_branch() {
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/ (\1)/p'
+}
+
+# Enable substitution in the prompt.
+setopt prompt_subst
+
+# Config for prompt. PS1 synonym.
+# prompt='%0/ %F{green}$(git_branch_name)%f > '
+export PROMPT='%F{214}%n@%m %F{81}%~%F{34}$(parse_git_branch)%F{81} $%f '
+
+alias ls='ls --color=auto'
+export TERM=xterm-256color
+alias tmuxtoggle="~/dotfiles/toggle-tmuxline.sh"
+
+#########################
+# here ends .zshrc.stub #
+#########################

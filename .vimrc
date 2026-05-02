@@ -11,8 +11,8 @@ set ignorecase
 set smartcase
 
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set softtabstop=4
 filetype indent plugin on
 
@@ -35,8 +35,8 @@ set background=dark
 colorscheme jellybeans
 
 " Use these for a transparent background
-hi Normal guibg=NONE ctermbg=NONE
-hi NonText guibg=NONE ctermbg=NONE
+" hi Normal guibg=None ctermbg=None
+" hi NonText guibg=None ctermbg=None
 
 " Colors tuned for Jellybeans
 hi CursorColumn ctermbg=235 guibg=#262626

@@ -1,5 +1,5 @@
 DOTFILES := $(shell pwd)
-all: tmux vim bashrc cmus
+all: tmux vim bashrc zshrc aerospace
 vim:
 	ln -s $(DOTFILES)/.vim ${HOME}/.vim
 	ln -s $(DOTFILES)/.vimrc ${HOME}/.vimrc
@@ -7,11 +7,9 @@ vim:
 tmux:
 	ln -s $(DOTFILES)/.tmux.conf ${HOME}/.tmux.conf
 
-bashrc:
-	cat $(DOTFILES)/.bashrc.stub >> ${HOME}/.bashrc
+zshrc:
+	cat ${DOTFILES}/.zshrc.stub >> ${HOME}/.zshrc
+	ln -s ${HOME}/.zshrc ${HOME}/.zprofile
 
-cmus:
-	ln -s $(DOTFILES)/myjellybeans.theme ${HOME}/.cmus/
-
-hangups:
-	ln -s $(DOTFILES)/hangups.conf ${HOME}/.config/hangups/
+aerospace:
+	ln -s $(DOTFILES)/.aerospace.toml ${HOME}/.aerospace.toml
